@@ -4,3 +4,8 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+.debug header .row > div {
+    height: 200px;
+    background-color: aqua;
+}
