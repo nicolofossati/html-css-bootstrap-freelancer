@@ -21,8 +21,8 @@
     <title>Bootstrap ex</title>
 </head>
 <body class="debug">
-    <header>
-        <nav class="navbar navbar-expand-md">
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-md h-100">
             <div class="container">
               <a class="navbar-brand text-white fw-bolder" href="#">START BOOTSTRAP</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,26 +46,31 @@
     </header>
 
     <main> 
-        <section class="ms-jumbotron">
+        <section class="ms-jumbotron pb-4">
             <div class="container text-center">
-                <div class="row">
+                <div class="row pt-4">
                     <div class="col-3"></div>
                     <div class="col-6"><img class="w-100" src="img/avatar.svg" alt=""></div>
                     <div class="col-3"></div>
                 </div>
-                <h1 class="fw-bolder text-white">START BOOTSTRAP</h1>
-                <div>
-                    <div class="ms-line"></div>  <!--  MS-LINE-->
-                    <i class="fa-solid fa-star"></i>
-                    <div class="ms-line"></div>
+                <h1 class="fw-bolder text-white pt-3">START BOOTSTRAP</h1>
+                <div class="text-white pb-2">
+                    <div class="ms-line bg-white"></div>
+                    <i class="fa-solid fa-star fs-3"></i>
+                    <div class="ms-line bg-white"></div>
                 </div>
+                <span class="text-white">GRAPHIC ARTIST - WEB DEISGNER - ILLUSTRATOR</span>
             </div>
         </section>
 
         <section id="portfolio">
             <div class="container text-center">
-                <h1>PORTFOLIO</h1>
-                <div>star</div>
+                <h3 class="ms-dark-secondary-color fw-bolder">PORTFOLIO</h3>
+                <div class="ms-dark-secondary-color pb-2">
+                    <div class="ms-line ms-dark-secondary-bgcolor"></div>
+                    <i class="fa-solid fa-star fs-3"></i>
+                    <div class="ms-line ms-dark-secondary-bgcolor"></div>
+                </div>
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-4 mt-2">
                         <div class="ms-img-container"></div>
@@ -90,7 +95,7 @@
         </section>
 
         <section id="about">
-            <h1 class="text-center">ABOUT</h1>
+            <h2 class="text-center">ABOUT</h2>
             <div class="text-center">star</div>
 
             <div class="container">
@@ -103,7 +108,7 @@
         </section>
 
         <section id="contact_me">
-            <h1 class="text-center">CONTACT ME</h1>
+            <h2 class="text-center">CONTACT ME</h2>
             <div class="text-center">star</div>
             <div class="container">
                 <div class="row">

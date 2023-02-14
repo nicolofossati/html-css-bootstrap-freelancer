@@ -4,6 +4,30 @@
     --ms-primary-color: #1ABC9C;
 }
 
+.ms-primary-color{
+    color: #1ABC9C;
+}
+
+.ms-dark-secondary-color{
+    color: #2C3E50;
+}
+
+.ms-secondary-color{
+    color: #3A546D;
+}
+
+.ms-primary-bgcolor{
+    background-color: #1ABC9C;
+}
+
+.ms-dark-secondary-bgcolor{
+    background-color: #2C3E50;
+}
+
+.ms-secondary-bgcolor{
+    background-color: #3A546D;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -42,16 +66,15 @@
 }
 
 
-.debug .ms-line{
-    height: 3px;
-    border-radius: 10px;
-    color: rgb(0, 0, 0);
-    width: 20px;
-    display: inline-block;
+/* RULES */
+header{
+    height: 80px;
 }
 
+main{
+    padding-top: 80px;
+}
 
-/* RULES */
 header nav{
     background-color: var(--ms-dark-secondary-color);
 }
@@ -88,4 +111,10 @@ button.navbar-toggler {
     filter: brightness(10);
 }
 
-
+.ms-line{
+    border-radius: 10px;
+    width: 12%;
+    aspect-ratio: 10/1;
+    display: inline-block;
+    vertical-align: middle;
+}
