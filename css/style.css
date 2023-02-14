@@ -80,3 +80,11 @@ header nav{
 footer .ms-footer-top .row>div span{
     display: block;
 }
+
+button.navbar-toggler {
+    border: white 1px solid;
+    filter: brightness(10);
+}
+
+
+
