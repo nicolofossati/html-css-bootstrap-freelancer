@@ -1,3 +1,9 @@
+:root {
+    --ms-secondary-color: #3A546D;
+    --ms-dark-secondary-color: #2C3E50;
+    --ms-primary-color: #1ABC9C;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,11 +13,70 @@
 
 
 /* DEBUG */
-.debug header .row > div {
-    height: 50px;
-    background-color: aqua;
+.debug header .container .row div{
+    height: 40px;
 }
 
 .debug header .container .row div:nth-child(2n){
     background-color: aliceblue;
+}
+
+.debug .ms-jumbotron .row div{
+    height: 200px;
+}
+
+.debug .ms-jumbotron .row div:nth-child(2n){
+    background-color: rgb(85, 20, 189);
+}
+
+.debug #portfolio .ms-img-container{
+    background-color: blue;
+    height: 20px;
+}
+
+.debug #about .container .row>div span{
+    background-color: #1ABC9C;
+    height: 20px;
+}
+
+.debug .ms-bttn{
+    background-color: coral;
+    width: 30px;
+}
+
+.debug #about{
+    background-color: #1ABC9C;
+}
+
+
+/* RULES */
+header nav{
+    background-color: var(--ms-dark-secondary-color);
+}
+
+.ms-jumbotron{
+    background-color: var(--ms-primary-color);
+}
+
+.ms-field span{
+    display: block;
+}
+
+.ms-field span:nth-child(2n){
+    height: 15px;
+    border-bottom: grey solid 1px;
+}
+#contact_me .container .ms-field:last-child span:nth-child(2n){
+    height: 100px;
+}
+
+.ms-footer-top{
+    background-color: var(--ms-secondary-color);
+}
+.ms-footer-bottom{
+    background-color: var(--ms-dark-secondary-color);
+}
+
+footer .ms-footer-top .row>div span{
+    display: block;
 }
