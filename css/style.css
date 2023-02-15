@@ -35,33 +35,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-
-/* DEBUG */
-.debug header .container .row div{
-    height: 40px;
-}
-
-.debug header .container .row div:nth-child(2n){
-    background-color: aliceblue;
-}
-
-
-.debug #portfolio .ms-img-container{
-    background-color: blue;
-    height: 20px;
-}
-
-.debug #about .container .row>div span{
-    background-color: #1ABC9C;
-    height: 20px;
-}
-
-
-.debug #about{
-    background-color: #1ABC9C;
-}
-
-
 /* RULES */
 header{
     height: 80px;
@@ -109,16 +82,14 @@ button.navbar-toggler {
 
 .ms-line{
     border-radius: 10px;
-    width: 12%;
-    aspect-ratio: 10/1;
+    width: 74px;
+    height: 5px;
     display: inline-block;
-    vertical-align: middle;
+    margin: 6px 0;
 }
 
-.ms-circle{
-    border-radius: 50%;
-    border: 1px solid white;
-    aspect-ratio: 1/1;
+.text-white.pb-2{
+    height: 35px;
 }
 
 .ms-social i {
@@ -126,7 +97,36 @@ button.navbar-toggler {
     border-radius: 50%;
     border: white solid 1px;
     padding: 5px;
-    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 30px;
     aspect-ratio: 1/1;
-    margin: 0 5px;
+    margin: 0 3px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.ms-field span input {
+    padding-bottom: 20px;
+    border: 0;
+    width: 100%;
+    border-bottom: 1px solid rgb(84, 84, 84);
+}
+
+::placeholder {
+    color: black;
+    font-weight: 500;
+}
+
+.ms-field-textarea{
+    padding-bottom: 20px;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid rgb(84, 84, 84);
+} 
+
+#about{
+    background-color: #1ABC9C;
 }
